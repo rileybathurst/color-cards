@@ -1,3 +1,7 @@
+:root {
+  --color-cards: #000;
+}
+
 .color-cards {
   border: 1px solid #ccc;
 }

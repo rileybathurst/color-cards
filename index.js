@@ -1,11 +1,7 @@
 import "./color-cards.css";
 
 function ColorCards() {
-  return (
-    <div class="color-cards">
-      Hey
-    </div>
-  );
+  return null;
 }
 
 export default ColorCards
