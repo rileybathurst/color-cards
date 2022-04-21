@@ -1,6 +1,6 @@
 {
   "name": "color-cards",
-  "version": "1.0.4",
+  "version": "1.0.8",
   "description": "A storybook styling utility",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
