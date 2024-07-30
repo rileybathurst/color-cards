@@ -1,6 +1,6 @@
 import * as React from "react"
 
-interface ColorCardTypes {
+type ColorCardTypes = {
   color: string;
   variables: string[];
 }
