@@ -1,6 +1,6 @@
 {
   "name": "color-cards",
-  "version": "1.0.15",
+  "version": "1.0.17",
   "description": "A storybook styling utility",
   "private": false,
   "scripts": {

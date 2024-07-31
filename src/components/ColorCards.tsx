@@ -1,11 +1,11 @@
 import * as React from "react"
 
-type ColorCardTypes = {
+/* type ColorCardTypes = {
   color: string;
   variables: string[];
 }
-
-export const ColorCards = ({ color, variables }: ColorCardTypes) =>
+ */
+export const ColorCards = ({ color, variables }) =>
   <section
     className="color-deck"
   >
