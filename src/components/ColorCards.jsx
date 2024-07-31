@@ -1,18 +1,17 @@
-import * as React from "react"
+import * as React from "react";
 
 /* type ColorCardTypes = {
   color: string;
   variables: string[];
 }
  */
-export const ColorCards = ({ color, variables }) =>
-  <section
-    className="color-deck"
-  >
+export const ColorCards = ({ color, variables }) => (
+  <section className="color-deck">
     {variables.map((variable) => (
       <div
         key={`${color}-${variable}`}
-        className={`color-card ${color}-${variable}`} >
+        className={`color-card ${color}-${variable}`}
+      >
         {color} - {variable}
         <div
           className="color-card"
@@ -25,3 +24,4 @@ export const ColorCards = ({ color, variables }) =>
       </div>
     ))}
   </section>
+);
